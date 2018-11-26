@@ -11906,7 +11906,8 @@ a.anchor-link {
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <h2 id="Sparse-Dictionary-Learning-for-Data-Driven-Analysis-of-Neuroimaging-Signals">Sparse Dictionary Learning for Data Driven Analysis of Neuroimaging Signals<a class="anchor-link" href="#Sparse-Dictionary-Learning-for-Data-Driven-Analysis-of-Neuroimaging-Signals">&#182;</a></h2><p>Presenter: Navid Shokouhi</p>
-<p><em>The University of Melbourne</em></p>
+<p><em>The University of Melbourne</em>
+<img align="right" width="100" height="200" src="figures/unimelb.png"></p>
 <p>work in collaboration with Dr. Abd-Krim Seghouane</p>
 
 </div>
@@ -11940,12 +11941,14 @@ a.anchor-link {
 <div class="text_cell_render border-box-sizing rendered_html">
 <h2 id="Navid-Shokouhi">Navid Shokouhi<a class="anchor-link" href="#Navid-Shokouhi">&#182;</a></h2><p>PhD in <em>Statistical Signal Processing</em> and <em>Machine Learning</em></p>
 <ul>
-<li><em>The University of Texas at Dallas, USA</em></li>
+<li><em>The University of Texas at Dallas, USA</em>
+<img align="right" width="100" width="200" src="figures/utdallas.png"></li>
 <li>Worked on machine learning for speech applications: spoken dialogue systems</li>
 </ul>
 <p>Postdoc in <em>Statistical Signal Processing</em> and <em>Machine Learning</em></p>
 <ul>
-<li><em>The University of Melbourne</em></li>
+<li><em>The University of Melbourne</em>
+<img align="right" width="100" height="200" src="figures/unimelb.png"></li>
 <li>functional data analysis for Neuroimaging</li>
 </ul>
 
@@ -12026,9 +12029,10 @@ a.anchor-link {
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <ul>
-<li>Robust Estimation of the Haemodynamic Response Function
-  <img src="figures/2018_unpublished_HRFestimation_SeghouaneShokouhi.png" alt="HRF_alpharobust" width="200"/>
-  <img src="figures/2018_unpublished_HRFestimationAlphaRobustPairs_SeghouaneShokouhi.png" alt="HRF_brainmap" width="250"/></li>
+<li><p>Robust Estimation of the Haemodynamic Response Function</p>
+<p><img align="left" src="figures/2018_unpublished_HRFestimation_SeghouaneShokouhi.png" alt="HRF_alpharobust" width="200"/></p>
+<p><img align="middle" src="figures/2018_unpublished_HRFestimationAlphaRobustPairs_SeghouaneShokouhi.png" alt="HRF_brainmap" width="250"/></p>
+</li>
 </ul>
 <p><strong>Seghouane, Shokouhi, "Robust Estimation of Output Layer Parameters for RBFNs", Transactions on Cybernetics, (submitted) 2018.</strong></p>
 
@@ -12229,6 +12233,39 @@ $$s.t.: \parallel {\bf x}_i\parallel_{0} &lt; \alpha$$</p>
 ${\bf y}_i$ 
 <strong>is represented as a sparse linear combination of the dictionary elements.</strong></p>
 </blockquote>
+
+</div>
+</div>
+</div></section><section>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>Sparse dictionary learning uses a <strong>union of subspaces</strong> to represent data.</p>
+<ul>
+<li>This provides a rich data-driven approach. </li>
+<li>Many naturalistic signals can be approximated as a weighted sum of other signals. </li>
+</ul>
+<p>For example images:
+<img src="figures/image_dictionarylearning.png" alt="image_example" width="450"/></p>
+<p><strong>[1] Mairal, Bach, Ponce, Sapiro. "Online dictionary learning for sparse coding." ICML, 2009.</strong></p>
+
+</div>
+</div>
+</div></section><section>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>And audio separation</p>
+<p>Mixture:   <audio src="audio/mixture_2.wav" controls preload></audio></p>
+<p>Separated: <audio src="audio/mixture_2_speaker2.wav" controls preload></audio></p>
+<ul>
+<li>Such problems are referred to as "blind source separation". </li>
+<li>The same problem that ICA addresses in fMRI data. </li>
+</ul>
+<p><strong>[1] source: <a href="http://cns.bu.edu/~mvss/courses/speechseg/#sparse">http://cns.bu.edu/~mvss/courses/speechseg/#sparse</a> </strong></p>
+<p><strong>[2] Shashanka, Raj, Smaragdis “Sparse Overcomplete Decomposition for Single Channel Speaker Separation,” ICASSP, 2007.</strong></p>
 
 </div>
 </div>
